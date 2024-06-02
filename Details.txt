@@ -1,0 +1,95 @@
+
+
+Information:
+
+  Please start preparing for the Mock Interview 2, which may/will be conducted soon
+
+  Topics: Roadmap & Concepts learned/discussed till Date
+
+
+Topics:
+
+  Student user should see only home & students page
+
+  Teacher user can see all pages home & students & teachers page
+
+  Custom Middleware In NodeJS:
+
+    piece of codes which can be executed in-between
+
+      in-coming request & Logic in the routes/controller
+    
+  JWT:
+    JSON WEB Token
+
+    Authorization:
+      securing individual APIs for more protection
+
+  
+  Email Sending:
+    Google account with APP Key
+      app-key: eraf lsph bbcy rnyo
+      app-key: rgbb tsey tkto rdar
+    
+    nodemailer library
+      transporter object which takes in service, auth
+      simple mail options for sending the email
+    
+
+Next Session:
+
+  Registration Verify Email:
+    created a simple ui in frontend for the mail url
+
+    created a simple api to Verify the jwt and set verified flag to true
+
+  Task Ideas
+
+Task:
+
+  Day 37: password reset flow
+    https://docs.google.com/document/d/1I7zwdMN77E3JwSXtgp2pVKgcAqPBHOwczishsKak-Qk/edit
+
+  Task: 2024-06-02
+    UI:
+
+      0. Login & Register Page refer the recent react repo,
+      
+      0.1. Routes should also similar app created in session
+
+        reference: https://github.com/sanjaysaravanan/tamil-combined-react-fe-with-be
+
+      1. Forget Password Page --> 
+        Reference: https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0
+      2. Link to forgot password page in login page
+
+      3. Create a simple node project with login and register similar to what discussed in the session,
+        Reference Repo: https://github.com/sanjaysaravanan/tamil-combined-node-project
+      3. Create a dummy api with path /reset-password in auth folder
+  
+  Day 38: URL Shortner ( Reference: https://tinyurl.com/app )
+  Task: 2024-06-02
+    1. Create a simple UI form which accepts a url as a field
+    2. Create a simple api in node project with path /short-url
+        1. accepts a url
+        2. stores it in the db
+        3. return a simple id after storing it in DB
+
+
+  db collection should contain three things,
+
+      url-id: sdadasdasd
+      actulaUrl: https://docs.google.com/document/d/sdfasdfasdflasdflahsdlfhalsdhlsdhfkahsdkfhads
+      userid: dfasddsd
+      shorturl:
+          FE: 
+          https://<netlify-url>.com/sdadasdasd
+          BE:
+          https://<render-url>.com/sdadasdasd
+      
+      reference: https://blog.logrocket.com/how-build-url-shortener-node-js/
+
+
+  
+
+
